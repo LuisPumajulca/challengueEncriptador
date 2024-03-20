@@ -5,7 +5,7 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    overflow-y: hidden;
+    overflow-y: auto; /* Cambiado a 'auto' para permitir scroll vertical */
 }
 
 .logo {
@@ -80,9 +80,9 @@ main {
     cursor: pointer;
     height: 67px;
     margin-left: 115px;
-    margin-top: 575px;
-    position: absolute;
+    margin-top: 20px; /* Modificado para ajustar el espacio */
     width: 336px;
+    position: static; /* Cambiado a 'static' para que siga el flujo normal del documento */
 }
 
 .informacion {
